@@ -1,0 +1,4 @@
+'.text.html, .text.html .meta.scope.between-tag-pair, .text.html .punctuation.tag.begin':
+  'Anchor':
+    'prefix': 'teleopti'
+    'body': 'hello :)'

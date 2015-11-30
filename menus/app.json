@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "teleopti-stleguide",
+          "submenu": [
+            {
+              "label": "Toggle Yeoman background",
+              "command": "teleopti-stleguide:toggleBackground"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

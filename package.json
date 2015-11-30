@@ -1,0 +1,30 @@
+{
+  "name": "teleopti-stleguide",
+  "main": "lib\teleopti-stleguide",
+  "version": "0.0.0",
+  "description": "usefull stuff",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grayoverride/teleopti-stylepackage.git"
+  },
+  "homepage": "https://github.com/grayoverride/teleopti-stylepackage",
+  "bugs": {
+    "url": "https://github.com/grayoverride/teleopti-stylepackage/issues"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-lesslint": "~1.0.0",
+    "grunt-apm": "0.0.1"
+  }
+}
