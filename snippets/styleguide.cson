@@ -1,4 +1,76 @@
 '.text.html, .text.html .meta.scope.between-tag-pair, .text.html .punctuation.tag.begin':
-  'Anchor':
-    'prefix': 'teleopti'
-    'body': 'hello :)'
+  'Background spacer':
+    'prefix': 'wfm-spacer'
+    'body': '<div class="spacer">${1:background}</div>'
+  'Spacer depth 1':
+    'prefix': 'wfm-spacer-1'
+    'body': '<div class="spacer material-depth-1">${1:layer-1}</div>'
+  'Spacer depth 2':
+    'prefix': 'wfm-spacer-2'
+    'body': '<div class="spacer material-depth-2">${1:layer-2}</div>'
+  'Simple list':
+    'prefix': 'wfm-simple-list'
+    'body': '<ul class="wfm-simple-list">\n<li>\n${1:header}\n<div class="subtext">${2:item}</div>\n</li>\n</ul>'
+  'Leave Behind':
+    'prefix': 'wfm-leave-behind'
+    'body': '<div class="wfm-leave-behind wfm-leave-behind-1">\n<span>\n<i class="mdi mdi-delete"></i>\n</span>\n</div>'
+  'Leave Behind':
+    'prefix': 'wfm-leave-behind'
+    'body': '<div class="wfm-leave-behind wfm-leave-behind-1">\n<span>\n<i class="mdi mdi-delete"></i>\n</span>\n</div>'
+  'Radio Buttons':
+    'prefix': 'wfm-radio-buttons'
+    'body': '<form>\n <div class="wfm-radio">\n <input type="radio" name="group1" id="radio1" checked="true"/>\n <label for="radio1">\n <span class="wfm-radio-toggle"></span>\n <span class="wfm-radio-label">${1:item}</span>\n </label>\n </div>\n <div class="wfm-radio">\n <input type="radio" name="group1" id="radio2" />\n <label for="radio2">\n <span class="wfm-radio-toggle"></span>\n <span class="wfm-radio-label">${2:item}</span>\n </label>\n </div>\n </form>'
+  'Checkboxes':
+    'prefix': 'wfm-checkbox'
+    'body': '<form>\n <div class="wfm-checkbox">\n <input type="checkbox" id="check1" checked="true"/>\n <label for="check1">\n <span class="wfm-checkbox-toggle"></span>\n <span class="wfm-checkbox-label">${1:item}</span>\n </label>\n </div>\n <div class="wfm-checkbox">\n <input type="checkbox" id="check2" />\n <label for="check2">\n <span class="wfm-checkbox-toggle"></span>\n <span class="wfm-checkbox-label">${2:item}</span>\n </label>\n </div>\n </form>'
+  'Switch':
+    'prefix': 'wfm-switch'
+    'body': '<div class="wfm-switch">\n <input type="checkbox" id="switch1" />\n <label for="switch1">\n <span class="wfm-switch-label">${1:Show selected items}</span>\n <span class="wfm-switch-toggle"></span>\n </label>\n </div>'
+  'Slider':
+    'prefix': 'wfm-slider'
+    'body': '<md-slider flex md-discrete min="0" max="100" aria-label="${1:label}"></md-slider>'
+  'default invis button':
+    'prefix': 'wfm-btn-invis-default'
+    'body': '<button class="wfm-btn wfm-btn-invis-default">${1:label}</button>'
+  'primary invis button':
+    'prefix': 'wfm-btn-invis-primary'
+    'body': '<button class="wfm-btn wfm-btn-invis-primary">${1:label}</button>'
+  'Disabled invis button':
+    'prefix': 'wfm-btn-invis-disabled'
+    'body': '<button class="wfm-btn wfm-btn-invis-disabled">${1:label}</button>'
+  'Default raised button':
+    'prefix': 'wfm-btn-default'
+    'body': '<button class="wfm-btn wfm-btn-default">${1:label}</button>'
+  'Primary raised button':
+    'prefix': 'wfm-btn-primary'
+    'body': '<button class="wfm-btn wfm-btn-primary">${1:label}</button>'
+  'Disabled raised button':
+    'prefix': 'wfm-btn-disabled'
+    'body': '<button class="wfm-btn wfm-btn-primary-disabled">${1:label}</button>'
+  'FAB Default':
+    'prefix': 'wfm-fab'
+    'body': '<button class="wfm-fab">\n<i class="mdi mdi-account"></i>\n <md-tooltip>${1:tooltip}</md-tooltip>\n </button>'
+  'FAB Info':
+    'prefix': 'wfm-fab-info'
+    'body': '<button class="wfm-fab info">\n<i class="mdi mdi-account"></i>\n <md-tooltip>${1:tooltip}</md-tooltip>\n </button>'
+  'FAB success':
+    'prefix': 'wfm-fab-success'
+    'body': '<button class="wfm-fab success">\n<i class="mdi mdi-account"></i>\n <md-tooltip>${1:tooltip}</md-tooltip>\n </button>'
+  'FAB mini':
+    'prefix': 'wfm-fab-mini'
+    'body': '<button class="wfm-fab mini">\n<i class="mdi mdi-account"></i>\n <md-tooltip>${1:tooltip}</md-tooltip>\n </button>'
+  'FAB mini info':
+    'prefix': 'wfm-fab-mini-info'
+    'body': '<button class="wfm-fab mini info">\n<i class="mdi mdi-account"></i>\n <md-tooltip>${1:tooltip}</md-tooltip>\n </button>'
+  'FAB mini success':
+    'prefix': 'wfm-fab-mini-success'
+    'body': '<button class="wfm-fab mini success">\n<i class="mdi mdi-account"></i>\n <md-tooltip>${1:tooltip}</md-tooltip>\n </button>'
+  'Wfm Table':
+    'prefix': 'wfm-table'
+    'body': '<table class="wfm-table">\n <thead><tr><th>${1:head1}</th><th>${2:head2}</th></tr></thead>\n <tbody><tr><td>${3:text1}</td><td class="number-cell">${4:numbers1}</td></tr>\n <tr><td>${5:text1}</td><td class="number-cell">${6:numbers2}</td></tr>\n </tbody>\n </table>'
+  'Wfm loadingbar':
+    'prefix': 'wfm-progressbar'
+    'body': '<md-progress-linear md-mode="indeterminate"></md-progress-linear>\n <div class="wfm-block material-depth-1"> Loading...</div>'
+  'Wfm spinner':
+    'prefix': 'wfm-spinner'
+    'body': '<md-progress-circular md-mode="indeterminate"></md-progress-circular>'

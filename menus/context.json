@@ -1,7 +1,0 @@
-{
-  "context-menu": {
-    ".workspace": {
-      "Toggle Yeoman background": "teleopti-stleguide:toggleBackground"
-    }
-  }
-}
