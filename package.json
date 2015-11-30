@@ -1,17 +1,17 @@
 {
-  "name": "teleopti-stleguide",
+  "name": "teleopti-styleguide",
   "main": "lib\teleopti-stleguide",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "usefull stuff",
   "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/grayoverride/teleopti-stylepackage.git"
+    "url": "https://github.com/GrayOverride/Teleopti-Styleguide-Atom-Package.git"
   },
-  "homepage": "https://github.com/grayoverride/teleopti-stylepackage",
+  "homepage": "https://github.com/GrayOverride/Teleopti-Styleguide-Atom-Package",
   "bugs": {
-    "url": "https://github.com/grayoverride/teleopti-stylepackage/issues"
+    "url": "https://github.com/GrayOverride/Teleopti-Styleguide-Atom-Package/issues"
   },
   "engines": {
     "atom": ">0.50.0"
