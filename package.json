@@ -1,7 +1,7 @@
 {
   "name": "teleopti-styleguide",
   "main": "lib\teleopti-stleguide",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "usefull stuff",
   "license": "MIT",
   "private": false,
