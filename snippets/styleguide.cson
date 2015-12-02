@@ -1,13 +1,4 @@
 '.text.html, .text.html .meta.scope.between-tag-pair, .text.html .punctuation.tag.begin':
-  'Background spacer':
-    'prefix': 'wfm-spacer'
-    'body': '<div class="spacer">${1:background}</div>'
-  'Spacer depth 1':
-    'prefix': 'wfm-spacer-1'
-    'body': '<div class="spacer material-depth-1">${1:layer-1}</div>'
-  'Spacer depth 2':
-    'prefix': 'wfm-spacer-2'
-    'body': '<div class="spacer material-depth-2">${1:layer-2}</div>'
   'Simple list':
     'prefix': 'wfm-simple-list'
     'body': '<ul class="wfm-simple-list">\n<li>\n${1:header}\n<div class="subtext">${2:item}</div>\n</li>\n</ul>'
